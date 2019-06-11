@@ -15,7 +15,8 @@
     "clientId":"1011000000101005",
     "userId":"ps:5724e37aa1bfd42510b52256ec620b17",
     "albumId" : "323",
-    "bind" : "device"
+    "bind" : "device",
+    "type" : "cartoonAlbum"
 }
 ```
 
@@ -28,6 +29,7 @@
 | clientId | string | 必填 | 设备id |
 | albumId | string | 选填 | 资源所属的专辑ID |
 | bind | string | 选填 | 收藏关联到设备上还是用户上； device-clientId有效，user-userId有效（默认值） |
+| type | string | 选填 | 收藏动画片；  |
 
 返回示例
 
